@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+body form {
+    width: 400px;
+    margin-top: 22vh;
+}
+
+body form label {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body form label span {
+    color: red;
+}
+
+body form article {
+    margin-bottom: 3vh;
+}
+
+body form input {
+    outline: none;
+}
+
+body form input:focus,
+body form input:active {
+    border: 2px solid #D0E1FC;
+}
+
+/*--------------article 1-------------------*/
+input[type="text"] {
+    padding: .5vh 2vw .5vh .3vw;
+    border: 2px solid rgb(193, 193, 193);
+}
+
+/*--------------article 2-------------------*/
+input[type="email"] {
+    padding: .5vh 2vw .5vh 10.6vw;
+    border: 2px solid rgb(193, 193, 193);
+}
+
+/*--------------article 3-------------------*/
+select[id="thema"] {
+    padding: .5vh 2vw .5vh 13.5vw;
+    border: 2px solid rgb(193, 193, 193);
+}
+
+/*--------------article 4-------------------*/
+textarea[name="text"] {
+    padding: .5vh 0 .5vh 0;
+    border: 2px solid rgb(193, 193, 193);
+}
+
+/*--------------submit btn-------------------*/
+button[type="submit"] {
+    padding: .7vh 0 .7vh 17.2vw;
+    border: 2px solid rgb(193, 193, 193);
+    background-color: #4694A0;
+    border: 1px solid #4694A0;
+}
+
+button[type="submit"]:hover {
+    background-color: #0C1730;
+}
+
+button[type="submit"] {
+    color: white;
+}
